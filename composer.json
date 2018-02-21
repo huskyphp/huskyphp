@@ -13,5 +13,10 @@
             "App\\Controller\\" : "app/controllers",
             "App\\Model\\" : "app/models"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"file_exists('.env') || copy('.env.sample', '.env');\""
+        ]
     }
 }
