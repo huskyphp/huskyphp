@@ -16,10 +16,7 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "WELCOME TO SLIM.
-";
-        // line 2
-        echo twig_escape_filter($this->env, ($context["name"] ?? null), "html", null, true);
+        echo "WELCOME TO SLIM.";
     }
 
     public function getTemplateName()
@@ -27,19 +24,13 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
         return "home.html";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  22 => 2,  19 => 1,);
+        return array (  19 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Twig_Source("WELCOME TO SLIM.
-{{name}}", "home.html", "/home/shivam/Development/Husky/templates/home.html");
+        return new Twig_Source("WELCOME TO SLIM.", "home.html", "/home/shivam/Development/Husky/templates/home.html");
     }
 }

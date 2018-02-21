@@ -1,12 +1,16 @@
 <?php
+require 'methods.php';
+$configuration = [
+    'settings' => [
+        'displayErrorDetails' => true,
+    ],
+];
 
-//function for rendering templates
-function template($template, $parameters=[]) {
+$c = new \Slim\Container($configuration);
+$app = new \Slim\App($c);
+$container = $app->getContainer();
 
-    $loader = new Twig_Loader_Filesystem('../templates');
-    $twig = new Twig_Environment($loader, array(
-        'cache' => '../storage/cache',
-        'debug'=>true
-    ));
-    return $twig->render($template,$parameters);
-}
+$container['HomeController'] = function ($container)
+{
+    return new App\Controller\HomeController();
+};
