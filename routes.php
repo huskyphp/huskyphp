@@ -1,5 +1,9 @@
 <?php
 
+
+
 $app->get('/',function (){
-    return "Welcome To HUSKY";
+   return template('home.html');
 });
+
+$app->get('/home','HomeController:index');

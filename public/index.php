@@ -1,13 +1,28 @@
 <?php
 
 session_start();
-
-date_default_timezone_set('Asia/Kolkata');
-setlocale (LC_TIME, 'fr_FR.utf8','fra');
-
+/*
+    | APPLICATION AUTOLOAD
+    |--------------------------------------------------------------------------
+*/
 require __DIR__ . '/../vendor/autoload.php';
-$app = new \Slim\App;
-
+/*
+    | BOOTSTRAPPING THE APPLICATION
+    |--------------------------------------------------------------------------
+*/
+require '../bootstrap/app.php';
+/*
+    | SETTING UP APP TIMEZONE
+    |--------------------------------------------------------------------------
+*/
+date_default_timezone_set(atm('APP_TIMEZONE'));
+/*
+    | LOADING APPLICATION ROUTES
+    |--------------------------------------------------------------------------
+*/
 require __DIR__.'/../routes.php';
-
+/*
+    | RUNNING THE APPLICATION
+    |--------------------------------------------------------------------------
+*/
 $app->run();
