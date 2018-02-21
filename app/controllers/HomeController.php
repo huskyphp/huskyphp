@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Controller;
-use Interop\Container\ContainerInterface;
-
+use App\Model\User;
 class HomeController
 {
-    public function idex()
+    public function index()
     {
-        return template('home.html');
+        $user= json_encode(User::all());
+        return $user;
     }
 }

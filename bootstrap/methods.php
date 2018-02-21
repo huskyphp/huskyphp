@@ -10,3 +10,7 @@ $twig = new Twig_Environment($loader, array(
 ));
 return $twig->render($template,$parameters);
 }
+
+function atm($value){
+    return getenv($value);
+}

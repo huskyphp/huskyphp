@@ -6,4 +6,4 @@ $app->get('/',function (){
    return template('home.html');
 });
 
-$app->get('/ok','HomeController:index');
+$app->get('/home','HomeController:index');
