@@ -86,7 +86,7 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
         </div>
 
         <div class=\"links\">
-            <a href=\"#\">Documentation</a>
+            <a href=\"#\">Documentation
             <a href=\"https://github.com/huskyphp/huskyphp\">Github</a>
             <a href=\"#\">About Us</a>
         </div>
@@ -178,7 +178,7 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
         </div>
 
         <div class=\"links\">
-            <a href=\"#\">Documentation</a>
+            <a href=\"#\">Documentation
             <a href=\"https://github.com/huskyphp/huskyphp\">Github</a>
             <a href=\"#\">About Us</a>
         </div>
