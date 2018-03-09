@@ -6,7 +6,6 @@ class HomeController
 {
     public function index()
     {
-        $user= json_encode(User::all());
-        return $user;
+        return 'Index Function of HomeCONTROLLER';
     }
 }

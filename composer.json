@@ -4,14 +4,16 @@
         "slim/slim": "^3.0",
         "twig/twig": "~2.0",
         "illuminate/database": "^5.5",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "robmorgan/phinx": "^0.9.2"
     },
     "autoload" :
     {
         "psr-4" :
         {
             "App\\Controller\\" : "app/controllers",
-            "App\\Model\\" : "app/models"
+            "App\\Model\\" : "app/models",
+            "Database\\" : "database"
         }
     },
     "scripts": {

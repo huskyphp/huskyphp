@@ -1,8 +1,15 @@
 <?php
 $settings=[
-    'displayErrorDetails' => true,
+    /*
+    | DEBUGGING OPTIONS
+    |--------------------------------------------------------------------------
+    */
+    'displayErrorDetails' => atm('APP_DEBUG'),
 
-    //Eloquent / DB configuration
+    /*
+    | DATABASE CONFIGURATIONS
+    |--------------------------------------------------------------------------
+    */
     'db' => [
 
         'driver'    => 'mysql',
