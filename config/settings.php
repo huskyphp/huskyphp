@@ -5,6 +5,7 @@ $settings=[
     |--------------------------------------------------------------------------
     */
     'displayErrorDetails' => atm('APP_DEBUG'),
+    'addContentLengthHeader' => false,
 
     /*
     | DATABASE CONFIGURATIONS
