@@ -1,0 +1,60 @@
+<?php
+
+namespace App\Controller;
+
+use Slim\Http\Request;
+
+
+class CONTROLLER_NAME
+{
+
+    /*
+    | INDEX FUNCTION OF CONTROLLER_NAMEController
+    |--------------------------------------------------------------------------
+    */
+    public function index()
+    {
+        return 'Hey ! This is index() of CONTROLLER_NAME Controller';
+    }
+
+
+    /*
+    | CRUD - get() FUNCTION OF CONTROLLER_NAME Controller
+    |--------------------------------------------------------------------------
+    */
+    public function get()
+    {
+
+    }
+
+
+    /*
+    | CRUD - edit() FUNCTION OF CONTROLLER_NAME Controller
+    |--------------------------------------------------------------------------
+    */
+    public function edit(Request $request)
+    {
+
+    }
+
+
+    /*
+    | CRUD - save() FUNCTION OF CONTROLLER_NAME Controller
+    |--------------------------------------------------------------------------
+    */
+    public function save(Request $request)
+    {
+
+    }
+
+
+    /*
+    | CRUD - delete() FUNCTION OF CONTROLLER_NAME Controller
+    |--------------------------------------------------------------------------
+    */
+    public function delete(Request $request)
+    {
+
+    }
+
+}

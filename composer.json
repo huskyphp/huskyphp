@@ -5,7 +5,8 @@
         "twig/twig": "~2.0",
         "illuminate/database": "^5.5",
         "vlucas/phpdotenv": "^2.4",
-        "robmorgan/phinx": "^0.9.2"
+        "robmorgan/phinx": "^0.9.2",
+        "symfony/console": "^3.4"
     },
     "autoload" :
     {
@@ -13,8 +14,10 @@
         {
             "App\\Controller\\" : "app/controllers",
             "App\\Model\\" : "app/models",
-            "Database\\" : "database"
-        }
+            "Database\\" : "database",
+            "Console\\": "bootstrap/cli"
+        },
+        "classmap": ["bootstrap/cli"]
     },
     "scripts": {
         "post-install-cmd": [
