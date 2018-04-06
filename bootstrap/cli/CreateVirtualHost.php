@@ -21,7 +21,7 @@ class CreateVirtualHost extends Command
             | DEFINING COMMAND DESCRIPTION
             |--------------------------------------------------------------------------
             */
-            -> setDescription('This command is used to create a model in app/models directory');
+            -> setDescription('This command is used to start the virtual host, default host & port are localhost:4300');
             /*
             | DEFINING COMMAND ARGUMENT
             |--------------------------------------------------------------------------

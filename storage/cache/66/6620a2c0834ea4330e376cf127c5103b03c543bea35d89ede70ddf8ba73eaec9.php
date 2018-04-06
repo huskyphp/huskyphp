@@ -1,7 +1,7 @@
 <?php
 
-/* home.html */
-class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc620c119 extends Twig_Template
+/* user.html */
+class __TwigTemplate_2599b224ee6af2e45494a65f383044412fed10fec9898ad93f4305216f9b7e8e extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -23,7 +23,7 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 
-    <title>Husky</title>
+    <title>User</title>
 
     <!-- Fonts -->
     <link href=\"https://fonts.googleapis.com/css?family=Raleway:100,600\" rel=\"stylesheet\" type=\"text/css\">
@@ -82,14 +82,10 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
         <div class=\"title m-b-md\">
             <img src=\"https://u.imageresize.org/1db3ce31-1601-4ea5-aa20-7074e2330932.png\">
             <br>
-            Husky
+            Hey! This is <b>User</b> Template
         </div>
 
-        <div class=\"links\">
-            <a target=\"_blank\" href=\"http://www.huskyphp.in\">Documentation</a>
-            <a target=\"_blank\" href=\"https://github.com/huskyphp/huskyphp\">Github</a>
-            <a target=\"_blank\" href=\"http://huskyphp.in/About.html\">About Us</a>
-        </div>
+
     </div>
 </div>
 </body>
@@ -98,7 +94,7 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
 
     public function getTemplateName()
     {
-        return "home.html";
+        return "user.html";
     }
 
     public function getDebugInfo()
@@ -115,7 +111,7 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 
-    <title>Husky</title>
+    <title>User</title>
 
     <!-- Fonts -->
     <link href=\"https://fonts.googleapis.com/css?family=Raleway:100,600\" rel=\"stylesheet\" type=\"text/css\">
@@ -174,17 +170,13 @@ class __TwigTemplate_e2710752a64ae865ecf1ac32dde0e2733b1a9ea640820c39bc98b41bc62
         <div class=\"title m-b-md\">
             <img src=\"https://u.imageresize.org/1db3ce31-1601-4ea5-aa20-7074e2330932.png\">
             <br>
-            Husky
+            Hey! This is <b>User</b> Template
         </div>
 
-        <div class=\"links\">
-            <a target=\"_blank\" href=\"http://www.huskyphp.in\">Documentation</a>
-            <a target=\"_blank\" href=\"https://github.com/huskyphp/huskyphp\">Github</a>
-            <a target=\"_blank\" href=\"http://huskyphp.in/About.html\">About Us</a>
-        </div>
+
     </div>
 </div>
 </body>
-</html>", "home.html", "/home/shivam/Development/Husky/templates/home.html");
+</html>", "user.html", "/home/shivam/Development/Husky/templates/user.html");
     }
 }

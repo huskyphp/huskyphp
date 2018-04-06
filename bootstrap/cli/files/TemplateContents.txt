@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Husky</title>
+    <title>TEMPLATE_NAME</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -64,14 +64,10 @@
         <div class="title m-b-md">
             <img src="https://u.imageresize.org/1db3ce31-1601-4ea5-aa20-7074e2330932.png">
             <br>
-            Husky
+            Hey! This is <b>TEMPLATE_NAME</b> Template
         </div>
 
-        <div class="links">
-            <a target="_blank" href="http://www.huskyphp.in">Documentation</a>
-            <a target="_blank" href="https://github.com/huskyphp/huskyphp">Github</a>
-            <a target="_blank" href="http://huskyphp.in/About.html">About Us</a>
-        </div>
+
     </div>
 </div>
 </body>
