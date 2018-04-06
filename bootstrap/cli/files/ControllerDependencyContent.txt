@@ -1,0 +1,10 @@
+
+/*
+| CONTROLLER_NAMEController Dependency
+|--------------------------------------------------------------------------
+*/
+
+$container['CONTROLLER_NAMEController'] = function ($container)
+{
+return new App\Controller\CONTROLLER_NAMEController();
+};
