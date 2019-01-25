@@ -1,0 +1,23 @@
+<?php
+namespace App\Model;
+
+use Illuminate\Database\Eloquent\Model;
+
+class MODEL_NAME extends Model{
+
+    /*
+    | NAME OF THE CORRESPONDING TABLE
+    |--------------------------------------------------------------------------
+    */
+
+    protected $table = '';
+
+    /*
+    | THE COLUMNS I THE TABLE, WHICH CAN BE MASS ASSIGNABLE
+    |--------------------------------------------------------------------------
+    */
+
+    protected $fillable = [];
+}
+
+?>
